@@ -3,17 +3,18 @@
 	<head>
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 		<meta charset="utf-8">
-		<title>BarterBucks</title>
+		<title>BarterBucks Profile: Chicago Cupcakes Food Truck</title>
 		<meta name="generator" content="Bootply" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<!--[if lt IE 9]>
 			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
-		<link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="raty/lib/jquery.raty.css">
+    <link href="css/main.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
-	</head>
-	<body>
+  </head>
+  <body>
 <div class="navbar navbar-inverse navbar-fixed-top">
   <div class="container">
     <div class="navbar-header">
@@ -35,24 +36,50 @@
         <li><a href="matches.html">Matches</a></li>
         <li><a href="barterbucks.html">Free BarterBucks</a></li>
         <li><a href="balance.html">BarterBucks Balance and Activity</a></li>
-        <li class="logout.html"><a href="logout">Log Out</a></li>
+        <li class="logout"><a href="logout.html">Log Out</a></li>
         
       </ul>
     </div><!--/.nav-collapse -->
   </div>
 </div>
 
-<div class="container">
-  
-  <div class="text-center">
-    <h1>Bootstrap starter template</h1>
-    <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+        <!-- CSS code from Bootply.com editor -->
+    
+    <!-- HTML code from Bootply.com editor -->
+            
+<div class="container-full">
+  <h3>What are you requesting?</h3>
+  <div class="tag-box">
+    <a href=""><span class="review-tags">car repair</span></a>&nbsp;
+    <a href=""><span class="review-tags">truck repair</span></a>&nbsp;
+    <a href=""><span class="review-tags">mechanic</span></a>&nbsp;
+    <a href=""><span class="review-tags">oil change</span></a>
   </div>
-  
-</div><!-- /.container -->
-	<!-- script references -->
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<script src="js/scripts.js"></script>
-	</body>
+</div>
+<form>
+  <fieldset>
+    <input type="checkbox" id="Zip Code" />
+    <label for="choice_1">Zip Code 60640</label><br>
+    <p>
+      Upload a photo:
+    </p>
+    <input type="file" accept="image/*" id="take-picture">
+    <p>
+      Photo preview:
+      <img src="about:blank" alt="" id="show-picture">
+    </p>
+    <textarea>Feel free to enter more information here.</textarea>
+  </fieldset>
+</form>
+<footer>
+  <button>
+    SUBMIT
+  </button>
+</footer>
+  <!-- script references -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="raty/lib/jquery.raty.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
 </html>

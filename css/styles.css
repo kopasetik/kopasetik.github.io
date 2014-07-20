@@ -1,0 +1,17 @@
+h3 {
+	text-align: center;
+}
+
+footer {
+	background-color: #336699;
+	text-align: center;
+	height: 85px;
+	position: fixed;
+	bottom: -20px;
+	z-index: 1000;
+	width: 100%;
+}
+
+button {
+	margin-top: 20px;
+}
